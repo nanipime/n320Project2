@@ -16,6 +16,7 @@ function Gallery() {
 		
 	return (
 		<div>
+			<br/>
 			<div class="container">
 				<img src="images/baby1.jpg" alt="portrait" />
 
@@ -26,10 +27,10 @@ function Gallery() {
 				> 
 					Portraits
 				</button>
-			</div>
+			</div><br/>
 
 			<div class="container2">
-				<img src="images/baby1.jpg" alt="land" />
+				<img src="images/dominican1.jpg" alt="land" />
 				<button 
 					// onClick={() => {
 
@@ -37,10 +38,10 @@ function Gallery() {
 				> 
 					Landscape
 				</button>
-			</div>
+			</div><br/>
 			
 			<div class="container3">
-				<img src="images/baby1.jpg" alt="sky" />
+				<img src="images/sky1.jpg" alt="sky" />
 				<button 
 					// onClick={() => {
 
@@ -48,7 +49,7 @@ function Gallery() {
 				> 
 					Skies
 				</button>
-			</div>
+			</div><br/>
 		</div>
 
 	);

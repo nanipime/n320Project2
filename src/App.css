@@ -13,11 +13,16 @@ h2 {
 }
 
 button {
-  background-color: rgb(220, 253, 222);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
   border: none;
-  border-radius: 20px;
+  border-radius: 5px;
   cursor: pointer;
-  margin: 2px;
+  
 
   /* position: absolute;
   top: 50%;
@@ -40,17 +45,14 @@ button:hover {
   color: white;
 }
 
-.container img {
-  width: 25%;
-  height: auto;
+.container, .container2, .container3 {
+  position: relative;
+  width: 100%;
+  
 }
 
-.container2 img {
-  width: 25%;
-  height: auto;
-}
-
-.container3 img {
+.container img, .container2 img, .container3 img {
+  filter: blur(1px);
   width: 25%;
   height: auto;
 }
