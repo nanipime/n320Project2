@@ -16,7 +16,7 @@ function Gallery() {
 		
 	return (
 		<div>
-			Gallery
+			<button>Portraits</button>
 		</div>
 
 	);
