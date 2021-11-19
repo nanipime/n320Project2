@@ -1,0 +1,57 @@
+[
+    {
+     "id": 1,
+     "name": "Photo1",
+      "category": "People",
+      "url": "images/baby1",
+      "tags": [
+       "travel", "photography", "culture"
+      ]
+    },
+    {
+     "id": 2,
+     "name": "Photo2",
+      "category": "People",
+      "url": "images/baby2",
+      "tags": [
+       "travel", "photography", "culture"
+      ]
+    },
+    {
+     "id": 3,
+     "name": "Photo3",
+      "category": "Landscape",
+      "url": "images/dominican1",
+      "tags": [
+       "travel", "photography", "culture"
+      ]
+    },
+    {
+     "id": 4,
+     "name": "Photo4",
+      "category": "Landscape",
+      "url": "images/mexico1",
+      "tags": [
+       "travel", "photography", "culture"
+      ]
+    },
+    {
+     "id": 5,
+     "name": "Photo5",
+      "category": "Skies",
+      "url": "images/sky1",
+      "tags": [
+       "travel", "photography", "culture"
+      ]
+    },
+    {
+     "id": 6,
+     "name": "Photo6",
+      "category": "Skies",
+      "url": "images/sky2",
+      "tags": [
+       "travel", "photography", "culture"
+      ]
+    }
+   ]
+   
