@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 
 function Gallery() {
 	// state vars
-		const [images, setImages] = useState([]);
+		const [images, setImages] = useState({});
 
 		// hook to load data
 		useEffect(() => {
 			// fetch data from json file
 			fetch("data/gallery.json")
-				.then((response) => response.json())
+				.then((result) => result.json())
 				.then((data) => {
 				setImages(data);
 				});
@@ -16,30 +16,39 @@ function Gallery() {
 		
 	return (
 		<div>
-			<button 
-				// onClick={() => {
+			<div class="container">
+				<img src="images/baby1.jpg" alt="portrait" />
 
-				// }}
-			> 
-				Portraits
-			</button><br/>
+				<button 
+					// onClick={() => {
 
-			<button 
-				// onClick={() => {
+					// }}
+				> 
+					Portraits
+				</button>
+			</div>
 
-				// }}
-			> 
-				Landscape
-			</button><br/>
+			<div class="container2">
+				<img src="images/baby1.jpg" alt="land" />
+				<button 
+					// onClick={() => {
 
-			<button 
-				// onClick={() => {
+					// }}
+				> 
+					Landscape
+				</button>
+			</div>
+			
+			<div class="container3">
+				<img src="images/baby1.jpg" alt="sky" />
+				<button 
+					// onClick={() => {
 
-				// }}
-			> 
-				Skies
-			</button><br/>
-
+					// }}
+				> 
+					Skies
+				</button>
+			</div>
 		</div>
 
 	);
