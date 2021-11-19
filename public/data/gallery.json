@@ -2,7 +2,7 @@
     {
      "id": 1,
      "name": "Photo1",
-      "category": "People",
+      "category": "Portraits",
       "url": "images/baby1",
       "tags": [
        "travel", "photography", "culture"
@@ -11,7 +11,7 @@
     {
      "id": 2,
      "name": "Photo2",
-      "category": "People",
+      "category": "Portraits",
       "url": "images/baby2",
       "tags": [
        "travel", "photography", "culture"

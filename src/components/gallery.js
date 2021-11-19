@@ -16,7 +16,30 @@ function Gallery() {
 		
 	return (
 		<div>
-			<button>Portraits</button>
+			<button 
+				// onClick={() => {
+
+				// }}
+			> 
+				Portraits
+			</button><br/>
+
+			<button 
+				// onClick={() => {
+
+				// }}
+			> 
+				Landscape
+			</button><br/>
+
+			<button 
+				// onClick={() => {
+
+				// }}
+			> 
+				Skies
+			</button><br/>
+
 		</div>
 
 	);
