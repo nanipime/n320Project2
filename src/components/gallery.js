@@ -17,6 +17,7 @@ function Gallery() {
 	return (
 		<div>
 			<br/>
+			{/* div for the images to be selected ; need to figure out how to code the buttons */}
 			<div class="container">
 				<img src="images/baby1.jpg" alt="portrait" />
 
@@ -43,6 +44,7 @@ function Gallery() {
 			<div class="container3">
 				<img src="images/sky1.jpg" alt="sky" />
 				<button 
+				// maybe code a change to change screen a different way
 					// onClick={() => {
 
 					// }}
